@@ -1,0 +1,3 @@
+[
+    { "keys": ["ctrl+k", "ctrl+s"], "command": "scope_status_bar", "args": {"toggle": true} }
+]
