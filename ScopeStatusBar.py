@@ -8,7 +8,6 @@ class ScopeStatusBarCommand(sublime_plugin.TextCommand):
     enabled = False
 
     def run(self, edit, update=False, toggle=False):
-        print("%s %s" % (update, toggle))
         if toggle is True:
             self.enabled = False if self.enabled else True
             if self.enabled:
